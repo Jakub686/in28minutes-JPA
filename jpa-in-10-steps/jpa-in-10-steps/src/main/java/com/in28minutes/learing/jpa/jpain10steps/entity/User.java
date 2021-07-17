@@ -1,12 +1,14 @@
 package com.in28minutes.learing.jpa.jpain10steps.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-//@Entity
+@Entity
 public class User {
 
-    //@Id
+    @Id
+    @GeneratedValue
     private long id;
     private String name;
     private String role;
