@@ -13,7 +13,7 @@ public class User {
     private String name;
     private String role;
 
-    protected User(){    }
+    public User(String jack, String admin){    }
 
     public User(long id, String name, String role) {
         super();
